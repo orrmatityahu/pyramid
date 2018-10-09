@@ -1,9 +1,10 @@
-from file_utils import build_pyramid
-from math_utils import build_paths, calculate_sum_for_paths, count_duplicates_numbers_in_array, sort_dict
+from utils.file_utils import build_pyramid
+
+from utils.math_utils import build_paths, calculate_sum_for_paths, count_duplicates_numbers_in_array, sort_dict
 
 
 def main():
-    file_name = 'input.txt'
+    file_name = 'files\\input.txt'
     # get pyramid array
     try:
         pyramid = build_pyramid(file_name)
